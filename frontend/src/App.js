@@ -1,12 +1,15 @@
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import LandingPage from "./Screens/LandingPage/LandingPage";
 
 function App() {
   return (
     <>
       <Header />
-      <main style={{ minHeight: "90vh" }}>This is the body</main>
+      <main>
+        <LandingPage />
+      </main>
       <Footer />
     </>
   );
