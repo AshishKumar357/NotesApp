@@ -1,0 +1,25 @@
+a.hyperlink:link {
+  /* unvisited link */
+  color: #bc94c4;
+  text-decoration: none;
+}
+a.hyperlink:visited {
+  /* visited link */
+  color: #447b9b;
+}
+a.hyperlink:hover {
+  /* mouse over link */
+  color: #092909;
+  border-bottom: none;
+}
+a.hyperlink:active {
+  /* active link */
+  color: #d16c8e;
+}
+
+.lefft {
+  width: 60%;
+  margin-left: 40px;
+  text-align: right;
+  position: relative;
+}

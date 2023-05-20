@@ -15,10 +15,14 @@ const LandingPage = () => {
           </div>
           <div className="m-auto">
             <view style={{ margin: 10 }}>
-              <Button variant="outline-green">Login</Button>
+              <Button variant="outline-green" href="/login">
+                Login
+              </Button>
             </view>
             <view style={{ margin: 10 }}>
-              <Button variant="outline-green">SignUp</Button>
+              <Button variant="outline-green" href="/register">
+                SignUp
+              </Button>
             </view>
           </div>
         </Row>

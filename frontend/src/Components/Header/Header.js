@@ -34,8 +34,8 @@ const Header = () => {
               </Form>
             </Nav>
             <Nav>
-              <Nav.Link>
-                <Link to={"/mynotes"}>My Notes</Link>
+              <Nav.Link as={Link} to={"/mynotes"}>
+                My Notes
               </Nav.Link>
               <NavDropdown title="Ashish Kumar" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#MyProfile">
